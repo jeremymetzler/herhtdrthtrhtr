@@ -56,16 +56,16 @@ public:
 	// Offsets
 
 	// Virtual functions
-	VF( m_flInaccuracy, float, 481 );
-	VF( m_flSpread, float, 451 );
-	VF( m_UpdateAccuracyPenalty, void, 482 );
-	VF( m_pWeaponData, WeaponInfo_t*, 459 );
+	VF( m_flInaccuracy, float, 482 );
+	VF( m_flSpread, float, 452 );
+	VF( m_UpdateAccuracyPenalty, void, 483 );
+	VF( m_pWeaponData, WeaponInfo_t*, 460 );
 
 	// Netvars
 	OF( m_fAccuracyPenalty, float, gOffsets->m_fAccuracyPenalty);
 	OF( m_fLastShotTime, float, gOffsets->m_fLastShotTime );
 	OF( m_flNextPrimaryAttack, float, gOffsets->m_flNextPrimaryAttack );
-	OF( m_iClip1, int, 0x3254 );
+	OF( m_iClip1, int, 0x3264);
 
 
 	bool IsKnifeorNade( )

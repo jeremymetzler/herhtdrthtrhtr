@@ -5,40 +5,40 @@ class Offset
 public:
 
 	//
-	int m_nTickBase = 0;
-	int m_flC4Blow = 0;
-	int m_angEyeAngles = 0;
-	int m_iHealth = 0;
-	int m_lifeState = 0;
-	int m_fFlags = 0;
-	int m_vecVelocity = 0;
-	int m_flSimulationTime = 0;
-	int m_bClientSideAnimation = 0;
-	int m_Collision = 0;
-	int m_iTeamNum = 0;
-	int m_nSurvivalTeam = 0;
-	int m_aimPunchAngle = 0;
-	int m_aimPunchAngleVel = 0;
-	int m_viewPunchAngle = 0;
-	int m_vecOrigin = 0;
-	int m_bHasHeavyArmor = 0;
-	int m_ArmorValue = 0;
-	int m_bHasHelmet = 0;
-	int m_hConstraintEntity = 0;
-	int m_flPoseParameter = 0;
-	int m_flModelScale = 0;
-	int m_flLowerBodyYawTarget = 0;
-	int m_bClientSideFrameReset = 0;
-	int m_bDrawViewmodel = 0;
-	int m_angRotation = 0;
+	int m_nTickBase = 0x3430;
+	int m_flC4Blow = 0x2990;
+	int m_angEyeAngles = 0xB36C; // x32dbg: 0xB36C
+	int m_iHealth = 0x100;
+	int m_lifeState = 0x25F;
+	int m_fFlags = 0x104;
+	int m_vecVelocity = 0x114;
+	int m_flSimulationTime = 0x268;
+	int m_bClientSideAnimation = 0x289C; // x32dbg: 0x289C (https://github.com/iisp33dii/CSGO-Netvar-Class-Dump/blob/master/DT_BaseAnimating.txt)
+	int m_Collision = 0x320;
+	int m_iTeamNum = 0xF4;
+	int m_nSurvivalTeam = 0xA3B0;
+	int m_aimPunchAngle = 0x302C;
+	int m_aimPunchAngleVel = 0x3038;
+	int m_viewPunchAngle = 0x3020;
+	int m_vecOrigin = 0x138;
+	int m_bHasHeavyArmor = 0xB35D; // x32dbg: 0xB35D (https://github.com/iisp33dii/CSGO-Netvar-Class-Dump/blob/master/DT_CSPlayer.txt)
+	int m_ArmorValue = 0xB368;
+	int m_bHasHelmet = 0xB35C;
+	int m_hConstraintEntity = 0x3344; // x32dbg: 0x3344 (https://github.com/iisp33dii/CSGO-Netvar-Class-Dump/blob/master/DT_BasePlayer.txt)
+	int m_flPoseParameter = 0x2774; // x32dbg: 0x2774 (https://github.com/iisp33dii/CSGO-Netvar-Class-Dump/blob/master/DT_BaseAnimating.txt)
+	int m_flModelScale = 0x2748; // x32dbg: 0x2748
+	int m_flLowerBodyYawTarget = 0x3A7C;
+	int m_bClientSideFrameReset = 0x26C0; // x32dbg: 0x26C0
+	int m_bDrawViewmodel = 0x91; // x32dbg: 0x91
+	int m_angRotation = 0x12C; // x32dbg: 0x12C IDK (https://github.com/iisp33dii/CSGO-Netvar-Class-Dump/blob/master/DT_BaseEntity.txt)
 
 	//
-	int m_fAccuracyPenalty = 0;
-	int m_fLastShotTime = 0;
-	int m_hActiveWeapon = 0;
-	int m_flNextPrimaryAttack = 0;
-	int m_flNextAttack = 0;
-	int m_iClip1 = 0;
+	int m_fAccuracyPenalty = 0x3330;
+	int m_fLastShotTime = 0x33A8; // x32dbg: 0x33A8
+	int m_hActiveWeapon = 0x2EF8;
+	int m_flNextPrimaryAttack = 0x3238;
+	int m_flNextAttack = 0x2D70;
+	int m_iClip1 = 0x3264;
 
 	void Init( )
 	{

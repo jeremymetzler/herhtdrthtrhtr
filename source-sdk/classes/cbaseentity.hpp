@@ -119,8 +119,8 @@ public:
 	OF( GetViewOffset, Vec3D, 0x108 );
 
 	// Virtual functions
-	VF( m_bIsPlayer, bool, 155 );
-	VF( m_bIsWeapon, bool, 163 );
+	VF( m_bIsPlayer, bool, 157 );
+	VF( m_bIsWeapon, bool, 165 );
 	VF( UpdateClientSideAnimations, void, 223 );
 	VF( GetAbsOrigin, Vec3D, 10 );
 
